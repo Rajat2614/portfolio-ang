@@ -1,0 +1,78 @@
+@import "./../../../../variables.scss";
+
+.banner {
+  min-height: 100vh;
+
+  .container {
+    display: table;
+    height: 100vh;
+
+    .section-box-banner {
+      display: table-cell;
+      vertical-align: middle;
+
+      .content {
+        margin-top: 98px;
+      }
+
+      h1 {
+        color: #941b9f;
+        margin: 0 0 20px 3px;
+        font-size: 18px;
+        font-weight: normal;
+        font-family: $CodeFont;
+      }
+
+      h2,
+      h3 {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 1.1;
+        margin: 0;
+        font-family: $MainFont;
+
+        background: linear-gradient(
+          120deg,
+          #3e6758,
+          #4d806a,
+          #7336de,
+          #19517e,
+          #51b3c0,
+          #81e686,
+          #8a9325,
+          #c57e0c,
+          #9a2a08
+        );
+        color: #fff;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h2 {
+        color: $LightestSlate;
+      }
+
+      h3 {
+        color: $Slate;
+      }
+
+      .banner-description {
+        margin-bottom: 70px;
+      }
+
+      p {
+        max-width: 500px;
+      }
+
+      .div-btn-banner {
+        height: 43px;
+      }
+      .main-btn:hover {
+        background-color: #0ce6f7;
+        color: black;
+        font-size: 14px;
+      }
+    }
+  }
+}

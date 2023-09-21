@@ -1,0 +1,44 @@
+<section class="section banner">
+  <div [@bannerTrigger] class="container">
+    <div class="section-box-banner">
+      <div class="content">
+        <div>
+          <h1>Hello! My name is</h1>
+        </div>
+        <div class="banner-title">
+          <h2 class="text-capitalize">Rajat Chauhan.</h2>
+          <h3 class="text-capitalize">Software Developer Engineer</h3>
+        </div>
+        <div class="banner-description">
+          <p class="mt-4">
+            I have
+            <span class="underline"> 3 months of experience </span> developing
+            game websites and secure messaging website to make the web a better
+            place. I am dedicated to writing and refactoring clean, reusable,
+            and scalable code in
+            <span class="underline">
+              Angular, Javascript , Typescript, C++
+            </span>
+            applying good practices and development standards.
+          </p>
+        </div>
+      </div>
+      <div class="div-btn-banner">
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_send_mail',
+              'banner',
+              'email'
+            )
+          "
+          href="rajjjatchauhan@gmail.com"
+          target="_black"
+          class="main-btn text-capitalize"
+        >
+          get in touch
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
